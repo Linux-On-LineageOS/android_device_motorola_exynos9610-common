@@ -177,3 +177,4 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 ## BSP (Must be included last)
 include hardware/samsung_slsi-linaro/config/BoardConfig9610.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
